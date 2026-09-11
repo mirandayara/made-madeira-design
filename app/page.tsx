@@ -1,8 +1,15 @@
 const projects = [
   {title:'Cozinha planejada', category:'Cozinhas', image:'/images/projeto-cozinha-instalacao.jpg'},
-  {title:'Quarto planejado', category:'Quartos', image:'/images/projeto-quarto-1.jpg'},
-  {title:'Armários planejados', category:'Dormitórios', image:'/images/projeto-sala-1.jpg'},
-  {title:'Cozinha e área de serviço', category:'Cozinhas', image:'/images/projeto-instagram-1.jpg'},
+  {title:'Cozinha com prateleiras', category:'Cozinhas', image:'/images/cozinha-preta-prateleira-madeira.jpg'},
+  {title:'Cozinha em verde-sálvia', category:'Cozinhas', image:'/images/cozinha-verde-salvia.jpg'},
+  {title:'Cozinha compacta', category:'Cozinhas', image:'/images/cozinha-compacta-geladeira.jpg'},
+  {title:'Painel de TV ripado', category:'Salas', image:'/images/sala-painel-ripado-nicho.jpg'},
+  {title:'Painel de TV com nicho', category:'Salas', image:'/images/sala-painel-nicho-simples.jpg'},
+  {title:'Quarto com painel ripado', category:'Quartos', image:'/images/quarto-painel-ripado-criado.jpg'},
+  {title:'Quarto planejado', category:'Quartos', image:'/images/quarto-azul-escrivaninha.jpg'},
+  {title:'Closet planejado', category:'Closets', image:'/images/closet-ilha-gavetas.jpg'},
+  {title:'Banheiro planejado', category:'Banheiros', image:'/images/banheiro-bancada-espelheira.jpg'},
+  {title:'Área gourmet', category:'Área Gourmet', image:'/images/gourmet-armario-ripado-adega.jpg'},
 ];
 export default function Home(){return <main>
 <header className="nav"><a className="brand" href="#inicio"><b>MADE</b><span>MADEIRA DESIGN</span></a><nav><a href="#projetos">Projetos</a><a href="#solucoes">Soluções</a><a href="#sobre">Sobre</a><a href="#processo">Como funciona</a><a href="#contato">Contato</a></nav><a className="navcta" href="#contato">Orçamento ↗</a></header>
